@@ -24,7 +24,7 @@ script: ./cibuild
 
 deploy:
   provider: pages
-  local-dir: "./site"
+  local-dir: "./_site"
   target-branch: master
   skip-cleanup: true
   keep-history: true
