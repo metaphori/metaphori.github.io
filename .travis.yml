@@ -5,7 +5,7 @@ env:
   global:
   - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
   - secure: iCUh7iXZBZ0MypTWpHL1aGLyR5PbipxLn/PKeThJn7b66Iw0vSOOxAHTMH0bhLyLPwqAUuvw8dsfiYTn+KBKYWRXiglxkdAOa+H7RINsXN+bPGaoNnUHBqZx1a6LbMruob3I4mUSWpT/aYxzvuFbp3kUv0Ri/qmAVYSh+h8eMYRWjm8Zv6eDzIRhwoMxY4W8wTyg0pGpI35HFmwPtvbVapoNGM68foHLbF9ZKzHK3Q4E7CrdmBbVzAv+BnqBoKLP5iseasQgB3CiR7RAgm17T375C4aYEhlwCeOHtPAF8PJOS61+a5c9jGYpktA7sXmOuenJMqOLLOOKLwny3pNhvv6OUeB+0Hy8Bjgmhmb+EfAUrD3xtmgFLGPoGh652+P12AGJIKjqvU+FXWWlX5r3IW8Oy4qATB3IakuZzMKry7k06EH4NwdWcXNYm2mgs1ybtQdkztlJ7lSsCOeFqOCg/fT7PROlu/HsXBrkuhEbnT/Q+obGwYfH8GAxLHwATkpbGCOBznmr6ssSo6i9um4wWlMvvop+EI6QPk04OqX0o3vJE9OxynvH83/bYz5tqUc69fgfyIrqoOzsLsou4g/byTtje1fUzboidRu2ak7Rx9NjVpmZd+PwWu38m/eqVy38nTL9ATVR3hENmoKMYShaIsTxjoc9FDsHXTIKyz7tfKE=
-cache: bundler
+#cache: bundler
 before_install:
 - chmod +x ./cibuild
 - openssl aes-256-cbc -K $encrypted_5997fd602279_key -iv $encrypted_5997fd602279_iv
