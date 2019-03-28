@@ -2,5 +2,9 @@
   link: /
 - name: About
   link: /about
+- name: CV
+  link: /cv
 - name: Blog
   link: /blog
+- name: Contacts
+  link: /references
