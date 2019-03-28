@@ -2,7 +2,8 @@
 <html>
   <head>
     <title>{{ page.title }}</title>
-    {% asset app.css %}
+    <link rel="stylesheet" href="{{ '/assets/css/app.css' | relative_url }}" />
+    {% comment %}  {% css app %} {% endcomment %}
     {% feed_meta %}
     {% seo %}
   </head>
