@@ -1,8 +1,17 @@
 ---
 layout: page
 ---
-<h1>Blog</h1>
+
+{% assign ttags = page.tags | join:', ' | append:'.' %}
+
+<h1>metaphori's blog</h1>
 
 <h2>{{ page.title }}</h2>
+
+<p class="post-info">Published on <em>{{ page.date | date: "%Y/%m/%d" }}</em> | Tags:
+<em>{{ ttags }}</em>
+</p>
+
+<hr />
 
 {{ content }}

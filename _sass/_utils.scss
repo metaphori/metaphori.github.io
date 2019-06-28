@@ -1,3 +1,183 @@
+/*******************/
+/*** RESET START ***/
+/*******************/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+a:hover { text-decoration: none; }
+/*****************/
+/*** RESET END ***/
+/*****************/
+
+
 body{
-  background-color: #ededed;
+  background-color: #fff;
+  padding-top: 20px;
+  font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.page-title {
+  color: #fff; // #9df;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 20pt;
+  line-height:2.0em;
+  font-weight: bold;
+
+  .first-letter { color: #fff; }
+}
+
+nav {
+  text-align: right;
+  padding: 10px;
+
+  a {
+    text-transform: uppercase;
+    line-height:2.0em;
+    color: #9df;
+    font-weight: 700;
+    font-size: 14pt;
+    font-family: 'PT Sans Narrow', sans-serif;
+    letter-spacing: -0.05em;
+  }
+
+  a:hover {
+    color: #fff;
+  }
+
+  .selected_link:link, .selected_link:visited, .selected_link:active {
+    color: #fff;
+  }
+}
+
+.mainContainer {
+  margin-top: 20px;
+  background-color: #fff;
+  font-family: 'PT Sans Narrow', sans-serif;
+
+  .leftc {
+    padding: 10px;
+    // background-color: #ededed;
+  }
+
+  h1 {
+    font-size: 20pt;
+    margin: 0px 0px 20px 0px;
+  }
+
+  h2 {
+    font-size: 18pt;
+    margin: 0px 0px 10px 0px;
+    font-weight: bold;
+  }
+
+  p {
+    font-size: 14pt;
+    margin: 7px 0px 7px 0px;
+    line-height:1.3em;
+  }
+
+  p.post-info { margin:0; font-size: 10pt;
+    em { font-weight: 600; }
+  }
+
+  hr { margin:2px; border-color: #ccc; margin-bottom: 12px; }
+}
+
+.navContainer {
+  background-color: #076196;
+  padding: 5px;
+  // border-radius: 15px 15px 0px 0px;
+
+  //div { min-height: 100px; }
+  h1 { margin: auto auto auto auto; }
+}
+
+.footer {
+  background-color: #555;
+  padding: 20px;
+  color: #fff;
+  margin-top:10px;
+}
+
+.pic {
+  border-radius: 50%;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.pic-desc {
+  font-family: 'PT Sans Narrow', sans-serif;
+  ul { margin: 10px; }
+  li { list-style: none; margin-bottom: 15px; }
+  em { font-weight: bold; }
+}
+
+.links {
+  li { list-style-type: square; display: list-item; margin-left: 1em; }
+}
+
+.menu {
+  ul { }
+  li { display: inline; list-style: none; margin-left: 10px; }
+}
+
+.blog-posts {
+  ul { }
+  li {
+    padding:8px 2px 4px 8px; color: #000;
+    margin-bottom:4px;
+    &:hover { background-color: #ededed; }
+  }
+  li.odd { border-left: 8px solid #076196; }
+  li.even { border-left: 8px solid /*#ababab*/#076196; }
+  .post-title { font-weight: bold; color: #076196; }
+  li.curr { border-left: 8px solid #000; }
+  p { line-height:1em; font-size: 10pt; margin: 0; margin-top:2px; margin-bottom: 2px; }
+}
+
+pre {
+  font-family: 'Courier New', sans-serif;
 }

@@ -2,9 +2,11 @@
   link: /
 - name: About
   link: /about
-- name: CV
+- name: Curriculum Vitae
   link: /cv
+- name: Research
+  link: /research
 - name: Blog
   link: /blog
-- name: Contacts
-  link: /references
+#- name: Contacts
+#  link: /references

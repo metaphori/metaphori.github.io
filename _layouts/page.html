@@ -3,12 +3,60 @@
   <head>
     <title>{{ page.title }}</title>
     <link rel="stylesheet" href="{{ '/assets/css/app.css' | relative_url }}" />
+    <link rel="stylesheet"
+          href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.8/styles/github.min.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.8/highlight.min.js"></script>
+    <script src="https://kit.fontawesome.com/5632065966.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
     {% comment %}  {% css app %} {% endcomment %}
     {% feed_meta %}
     {% seo %}
   </head>
   <body>
-    {% include nav.html %}
-    {{ content }}
+    <div class="container-fluid">
+
+      <div class="row navContainer">
+        <div class="col-sm-3">
+          <h1 class="page-title"><!--<span class="first-letter">r</span>oberto<span class="first-letter">c</span>asadei-->metaphori.github.io</h1>
+        </div>
+        <div class="col-sm-9">
+          {% include nav.html %}
+        </div>
+      </div>
+
+      <div class="row mainContainer">
+        <div class="col-sm-3 leftc">
+          <img class="pic" src="{{ '/assets/img/foto.jpg' | relative_url }}" />
+          <ul class="pic-desc">
+          <li><em>Roberto Casadei</em></li>
+          <li>PhD Student in Computer Science and Engineering
+            at Alma Mater Studiorum--Università di Bologna</li>
+            <li style="text-align: center;">
+              <a href="https://github.com/metaphori/" title="Roberto Casadei's GitHub Account"><i class="fab fa-github fa-2x"></i></a>
+              <a href="https://www.unibo.it/sitoweb/roby.casadei/en" title="Roberto Casadei's Institutional Website"><i class="fas fa-university fa-2x"></i></a>
+              <a href="https://stackoverflow.com/users/2250712/metaphori" title="Roberto Casadei's StackOverflow Website"><i class="fab fa-slack-hash fa-2x"></i></a>
+              <a href="https://slideshare.net/RobertoCasadei" title="Roberto Casadei's Slideshare"><i class="fab fa-slideshare fa-2x"></i></a>
+              <a href="mailto:name.surname90{on}gmail.com" title="Roberto Casadei's Email"><i class="fas fa-envelope fa-2x"></i></a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-sm-6 centerc">{{ content }}</div>
+        <div class="col-sm-3 rightc">
+          <ul class="blog-posts">
+          {% assign i = 0 %}
+          {% for p in site.posts %}
+            {% assign i = i | plus:1 %}<a href="{{ p.url }}">
+            <li class="{% cycle 'odd', 'even' %}{% if p.url==page.url %} curr{% endif %}"><span class="post-title">{{ p.title }}</span>{{p.excerpt}}</li></a>
+          {% endfor %}
+          </ul>
+        </div>
+      </div>
+
+      <div class="row footer">
+        <footer>
+        &copy; 2019 Roberto Casadei
+        </footer>
+      </div>
+    </div>
   </body>
 </html>
