@@ -101,11 +101,17 @@ nav {
 
   h1 {
     font-size: 20pt;
-    margin: 0px 0px 20px 0px;
+    margin: 20px 0px 20px 0px;
   }
 
   h2 {
     font-size: 18pt;
+    margin: 15px 0px 15px 0px;
+    font-weight: bold;
+  }
+
+  h3 {
+    font-size: 14pt;
     margin: 0px 0px 10px 0px;
     font-weight: bold;
   }
@@ -180,4 +186,21 @@ nav {
 
 pre {
   font-family: 'Courier New', sans-serif;
+}
+
+div.bibtexentry {
+  border-left:10px solid #ababab;
+  background-color: #ededed;
+  padding: 10px;
+  margin-bottom:10px;
+  .year, .author { font-weight: 100; }
+  .title { font-weight: bold; padding:0; }
+}
+
+.content {
+  ul {
+    margin: 10px 0px 10px 0px;
+  }
+  ul li { list-style-type: square; display: list-item; margin-left: 1em; margin-bottom: 10px; line-height: 1.3em; }
+  em { font-weight: bold; }
 }

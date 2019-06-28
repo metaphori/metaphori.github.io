@@ -8,6 +8,17 @@
     <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.8/highlight.min.js"></script>
     <script src="https://kit.fontawesome.com/5632065966.js"></script>
     <script>hljs.initHighlightingOnLoad();</script>
+    {% if page.custom_css %}
+      {% for stylesheet in page.custom_css %}
+      <link rel="stylesheet" href="{{ stylesheet }}" media="screen" type="text/css">
+      {% endfor %}
+    {% endif %}
+
+    {% if page.custom_js %}
+      {% for js_file in page.custom_js %}
+      <script src="{{ js_file }}" type="text/javascript"></script>
+      {% endfor %}
+    {% endif %}
     {% comment %}  {% css app %} {% endcomment %}
     {% feed_meta %}
     {% seo %}
@@ -41,7 +52,7 @@
             </li>
           </ul>
         </div>
-        <div class="col-sm-6 centerc">{{ content }}</div>
+        <div class="col-sm-6 content">{{ content }}</div>
         <div class="col-sm-3 rightc">
           <ul class="blog-posts">
           {% assign i = 0 %}
