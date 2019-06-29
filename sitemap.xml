@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>/bureaucracy/2017/06/29/first-post.html</loc>
+<loc>/ramblings/2017/06/29/ingegneria-ingegno-vs-metodo.html</loc>
 <lastmod>2017-06-29T14:38:35+00:00</lastmod>
 </url>
 <url>
-<loc>/bureaucracy/2019/06/28/snd-post.html</loc>
+<loc>/ramblings/2019/06/28/on-phd.html</loc>
 <lastmod>2019-06-28T00:00:00+00:00</lastmod>
 </url>
 <url>
@@ -28,6 +28,10 @@
 </url>
 <url>
 <loc>/data/cv_201903.pdf</loc>
-<lastmod>2019-06-28T15:41:21+00:00</lastmod>
+<lastmod>2019-06-29T13:25:19+00:00</lastmod>
+</url>
+<url>
+<loc>/data/rcasadei_cv_onepage_201906.pdf</loc>
+<lastmod>2019-06-29T13:25:19+00:00</lastmod>
 </url>
 </urlset>

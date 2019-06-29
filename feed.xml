@@ -1,9 +1,45 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2019-06-28T15:42:26+00:00</updated><id>/feed.xml</id><title type="html">metaphori’s blog</title><subtitle>A simple, inconstant blog
-</subtitle><entry><title type="html">Second post</title><link href="/bureaucracy/2019/06/28/snd-post.html" rel="alternate" type="text/html" title="Second post" /><published>2019-06-28T00:00:00+00:00</published><updated>2019-06-28T00:00:00+00:00</updated><id>/bureaucracy/2019/06/28/snd-post</id><content type="html" xml:base="/bureaucracy/2019/06/28/snd-post.html">&lt;p&gt;This is my second  post.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2019-06-29T13:26:18+00:00</updated><id>/feed.xml</id><title type="html">metaphori’s blog</title><subtitle>A simple, inconstant blog
+</subtitle><entry><title type="html">On PhD</title><link href="/ramblings/2019/06/28/on-phd.html" rel="alternate" type="text/html" title="On PhD" /><published>2019-06-28T00:00:00+00:00</published><updated>2019-06-28T00:00:00+00:00</updated><id>/ramblings/2019/06/28/on-phd</id><content type="html" xml:base="/ramblings/2019/06/28/on-phd.html">&lt;p&gt;As I am about to finish my 3rd year of PhD in Computer Science and Engineering,
+ I would like to reflect on the path behind and after me.&lt;/p&gt;</content><author><name></name></author><category term="english" /><category term="ramblings" /><category term="phd" /><category term="academia" /><category term="career" /><summary type="html">As I am about to finish my 3rd year of PhD in Computer Science and Engineering, I would like to reflect on the path behind and after me.</summary></entry><entry><title type="html">Ingegneria: ingegno vs. metodo</title><link href="/ramblings/2017/06/29/ingegneria-ingegno-vs-metodo.html" rel="alternate" type="text/html" title="Ingegneria: ingegno vs. metodo" /><published>2017-06-29T14:38:35+00:00</published><updated>2017-06-29T14:38:35+00:00</updated><id>/ramblings/2017/06/29/ingegneria-ingegno-vs-metodo</id><content type="html" xml:base="/ramblings/2017/06/29/ingegneria-ingegno-vs-metodo.html">&lt;p&gt;Da ingegnere, nel leggere il &lt;em&gt;Discorso sul metodo&lt;/em&gt; di &lt;em&gt;Descartes&lt;/em&gt;,
+sono rimasto colpito dalla contrapposizione che l’autore fa tra &lt;strong&gt;ingegno&lt;/strong&gt; e &lt;strong&gt;metodo&lt;/strong&gt;. &lt;!--more--&gt;
+In particolare, mi pongo due domande:&lt;/p&gt;
 
-&lt;p&gt;See, I have so much to say that it is completely empty and rethoric.&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Quale dei due concetti appartiene di più alla figura dell’ingegnere?&lt;/li&gt;
+  &lt;li&gt;Qual è il limite di un metodo senza ingegno?&lt;/li&gt;
+&lt;/ol&gt;
 
-&lt;p&gt;A digital ecosystem is a distributed, adaptive, open socio-technical system with properties of self-organisation, scalability and sustainability inspired from natural ecosystems. Digital ecosystem models are informed by knowledge of natural ecosystems, especially for aspects related to competition and collaboration among diverse entities.[1][2][3][4] The term is used in the computer industry,[5] the entertainment industry,[6] and the World Economic Forum.[7]&lt;/p&gt;</content><author><name></name></author><summary type="html">This is my second post.</summary></entry><entry><title type="html">First post</title><link href="/bureaucracy/2017/06/29/first-post.html" rel="alternate" type="text/html" title="First post" /><published>2017-06-29T14:38:35+00:00</published><updated>2017-06-29T14:38:35+00:00</updated><id>/bureaucracy/2017/06/29/first-post</id><content type="html" xml:base="/bureaucracy/2017/06/29/first-post.html">&lt;p&gt;This is my first post. See, I have so much to say…&lt;!--more--&gt; that it is completely empty and rethoric.&lt;/p&gt;
+&lt;p&gt;Il termine “ingegnere” è &lt;em&gt;etimologicamente collegato&lt;/em&gt; al termine “ingegno”—nella doppia valenza di “ingegno mentale” (cioè la capacità di ingegnarsi) e di “macchina ingegnosa” (frutto dell’ingegno). Tuttavia l’approccio ingegneristico è costruito pesantemente su un &lt;em&gt;metodo&lt;/em&gt; di stampo &lt;em&gt;scientifico&lt;/em&gt; che dovrebbe portare ad affrontare i problemi in modo &lt;em&gt;sistematico&lt;/em&gt; (anche, metodico) e fondato–un metodo che potremmo dire &lt;em&gt;cartesiano&lt;/em&gt;. Il fatto è che gli ingegneri per definizione sono chiamati a risolvere problemi complessi del mondo reale. Sappiamo anche che la &lt;em&gt;sfida della complessità&lt;/em&gt; mette un po’ in crisi il riduzionismo cartesiano. Questa necessità di andare “oltre al metodo”, di impiegare l’ingegno per trovare soluzioni accettabili a problemi complessi, ottimizzando costi e benefici (trade-off), fa parte integrante del ruolo dell’ingegnere. Ma si potrebbe dire che questa posizione dell’ingegno rientra nel quadro dettato da un metodo che porta ad essere consapevoli del metodo stesso e dei propri limiti—id est, un’applicazione metodica dell’ingegno.&lt;/p&gt;
 
-&lt;div class=&quot;language-scala highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;f&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;Int&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;Boolean&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;???&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name></name></author><category term="example" /><category term="scala" /><category term="bureaucracy" /><summary type="html">This is my first post. See, I have so much to say…</summary></entry></feed>
+&lt;p&gt;Ma il metodo ha bisogno d’ingegno? Dapprima verrebbe da rispondere no, per il semplice fatto che un metodo, in quanto successione di passaggi, potrebbe essere semplicemente imparato e replicato, come una ricetta. Ma questo sarebbe vero solo se il contesto fornisse sempre gli stessi input e in modo assolutamente preciso. Infatti, l’ingegno sembra utile al metodo almeno in 3 momenti:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Ideazione del metodo&lt;/li&gt;
+  &lt;li&gt;Applicazione del metodo&lt;/li&gt;
+  &lt;li&gt;Valutazione (e ristrutturazione) del metodo&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Quindi l’ingegno avrebbe un ruolo sia metodo&lt;em&gt;logico&lt;/em&gt; sia esecutivo (purtroppo c’è il mondo, che è una sorgente di complessità non indifferente).&lt;/p&gt;
+
+&lt;p&gt;Quindi Descartes fondamentalmente fa il finto umile quando si taccia di scarso ingegno. Oppure eccelleva in un &lt;em&gt;tipo&lt;/em&gt; di ingegno (al meta-livello) che non riconosceva in quanto tale.&lt;/p&gt;
+
+&lt;p&gt;Ora mi verrebbe da domandare se l’ingegno non sia in realtà una complessa gerarchia di metodi…&lt;/p&gt;
+
+&lt;p&gt;Note a seguito di discussioni&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Post necessariamente e volutamente evocativo. Non ci sono definizioni. L’ingegno di Descartes è mappabile su “intelligenza” (come talento), non proprio facile da definire, ma “ingegnarsi” nell’uso corrente è quasi uno step successivo (intelligenza + creatività + pressione).&lt;/li&gt;
+  &lt;li&gt;L’&lt;em&gt;applicazione metodica dell’ingegno&lt;/em&gt; mi sembra essere molto in linea con la forma mentis dell’ingegnere.&lt;/li&gt;
+  &lt;li&gt;L’analogia di D.P.: cross-over come ingegno&lt;/li&gt;
+  &lt;li&gt;Il tentativo di M.V.: metodo per creare focus; ingegno basato su visione non-standard&lt;/li&gt;
+  &lt;li&gt;Altra questione: &lt;em&gt;a cosa mi serve un metodo se ho l’ingegno?&lt;/em&gt; Il metodo può dare supporto a un’analisi ordinata e sistematica che l’ingegno “farebbe fatica” ad attuare. L’ingegno va oltre catene prevedibili di ragionamento—in questo senso, più che richiedere, genera una “visione non standard” (cosa che tra l’altro mi richiama l’analogia del crossover e mi fa pensare a una componente di casualità come fondamentale).&lt;/li&gt;
+  &lt;li&gt;Interessante l’&lt;em&gt;etimologia&lt;/em&gt; del termine &lt;em&gt;metodo&lt;/em&gt;: μετα (cioè “oltre”) + ὁδός (cioè “strada”), quindi “strada con la quale si va oltre”, o “la strada dell’indagine/investigazione”. Di conseguenza vedo l’ingegno come ciò che ci porta a cercare “fuori dalla strada”, ossia fuori dalle regole di indagine che ci siamo posti (o, anche, fuori dalle cose che ci aspettiamo).&lt;/li&gt;
+  &lt;li&gt;Altra domanda: &lt;em&gt;quand’è che un ingegno è superiore a un altro?&lt;/em&gt; Intuitivamente, direi che lo è quando trova statisticamente soluzioni migliori, più velocemente, più spesso.&lt;/li&gt;
+  &lt;li&gt;Domanda conseguente: &lt;em&gt;come può un ingegno operare in modo migliore?&lt;/em&gt; Assumiamo la casualità come meccanismo base di ogni ingegno. Credo che le componenti importanti siano:
+    &lt;ul&gt;
+      &lt;li&gt;la capacità di stima della lontananza rispetto a una soluzione soddisfacente&lt;/li&gt;
+      &lt;li&gt;il metodo di steering dei salti&lt;/li&gt;
+      &lt;li&gt;la capacità inferenziale ad ogni step&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="italian" /><category term="philosophy" /><category term="engineering" /><category term="ramblings" /><summary type="html">Da ingegnere, nel leggere il Discorso sul metodo di Descartes, sono rimasto colpito dalla contrapposizione che l’autore fa tra ingegno e metodo.</summary></entry></feed>
