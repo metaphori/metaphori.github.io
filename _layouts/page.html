@@ -3,10 +3,10 @@
   <head>
     <title>{{ page.title }}</title>
     <link rel="stylesheet" href="{{ '/assets/css/app.css' | relative_url }}" />
-    <link rel="stylesheet"
-          href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.8/styles/github.min.css">
+    <link rel="stylesheet" href="{{ '/assets/fontawesome/css/all.css' | relative_url }}"
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.8/styles/github.min.css">
     <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.8/highlight.min.js"></script>
-    <script src="https://kit.fontawesome.com/5632065966.js"></script>
+    <!-- <script src="https://kit.fontawesome.com/5632065966.js"></script> -->
     <script>hljs.initHighlightingOnLoad();</script>
     {% if page.custom_css %}
       {% for stylesheet in page.custom_css %}
@@ -19,6 +19,7 @@
       <script src="{{ js_file }}" type="text/javascript"></script>
       {% endfor %}
     {% endif %}
+
     {% comment %}  {% css app %} {% endcomment %}
     {% feed_meta %}
     {% seo %}
@@ -47,7 +48,9 @@
               <a href="https://www.unibo.it/sitoweb/roby.casadei/en" title="Roberto Casadei's Institutional Website"><i class="fas fa-university fa-2x"></i></a>
               <a href="https://stackoverflow.com/users/2250712/metaphori" title="Roberto Casadei's StackOverflow Website"><i class="fab fa-slack-hash fa-2x"></i></a>
               <a href="https://slideshare.net/RobertoCasadei" title="Roberto Casadei's Slideshare"><i class="fab fa-slideshare fa-2x"></i></a>
-              <a href="https://scholar.google.it/citations?user=qhfWK44AAAAJ" title="Roberto Casadei's Scholar Profile"><i class="fas fa-pen-alt fa-2x"></i></a>
+              <a href="https://scholar.google.it/citations?user=qhfWK44AAAAJ" title="Roberto Casadei's Scholar Profile"><i class="fas fa-graduation-cap fa-2x"></i></a>
+              <a href="https://dblp.uni-trier.de/pers/hd/c/Casadei:Roberto" title="Roberto Casadei's DBLP Profile"><i class="fas fa-pen-alt fa-2x"></i></a>
+              <a href="https://www.linkedin.com/in/robertocasadei/" title="Roberto Casadei's LinkedIn Profile"><i class="fab fa-linkedin fa-2x"></i></a>
               <a href="mailto:name.surname90@gmail.com" title="Roberto Casadei's Email"><i class="fas fa-envelope fa-2x"></i></a>
             </li>
           </ul>

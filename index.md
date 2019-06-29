@@ -3,5 +3,6 @@ layout: page
 title: metaphori's home
 ---
 
-My name is Roberto Casadei.
-I am a PhD student in Computer Science and Engineering at the University of Bologna.
+Welcome!
+
+This website is meant to provide information about myself and my professional activity.

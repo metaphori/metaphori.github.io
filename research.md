@@ -54,7 +54,7 @@ custom_js:
     <span class="if year">
       <span class="year"></span>.
     </span>
-    <span class="author"></span>
+    <span class="author"><span class="first"></span> <span class="last"></span></span>
     <span class="if url">
       <a class="url">(view online)</a>
     </span>

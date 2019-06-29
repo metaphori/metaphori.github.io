@@ -49,6 +49,12 @@ a:hover { text-decoration: none; }
 /*** RESET END ***/
 /*****************/
 
+@font-face {
+font-family: "fontawesome";
+font-weight: normal;
+font-style : normal;
+src: url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.woff2") format("woff2");
+}
 
 body{
   background-color: #fff;
@@ -58,7 +64,7 @@ body{
 
 .page-title {
   color: #fff; // #9df;
-  font-family: 'PT Sans Narrow', sans-serif;
+  font-family: 'fontawesome', sans-serif;
   font-size: 20pt;
   line-height:2.0em;
   font-weight: bold;
@@ -73,10 +79,10 @@ nav {
   a {
     text-transform: uppercase;
     line-height:2.0em;
-    color: #9df;
+    color: #A7BAE9;
     font-weight: 700;
     font-size: 14pt;
-    font-family: 'PT Sans Narrow', sans-serif;
+    font-family: 'fontawesome', sans-serif;
     letter-spacing: -0.05em;
   }
 
@@ -127,6 +133,18 @@ nav {
   }
 
   hr { margin:2px; border-color: #ccc; margin-bottom: 12px; }
+
+  .content {
+    font-family: "Tahoma", Arial, Serif;
+    ul, ol {
+      margin: 10px 0px 10px 0px;
+    }
+    ol li, ul li {  display: list-item; margin-left: 2.5em; margin-bottom: 10px; line-height: 1.3em; }
+    ul li { list-style-type: square; }
+    ol li { list-style-type: decimal; }
+    em { color: #666; font-style: italic; font-weight: bold; }
+    strong { font-weight: bold; color: #a00;}
+  }
 }
 
 .navContainer {
@@ -195,12 +213,4 @@ div.bibtexentry {
   margin-bottom:10px;
   .year, .author { font-weight: 100; }
   .title { font-weight: bold; padding:0; }
-}
-
-.content {
-  ul {
-    margin: 10px 0px 10px 0px;
-  }
-  ul li { list-style-type: square; display: list-item; margin-left: 1em; margin-bottom: 10px; line-height: 1.3em; }
-  em { font-weight: bold; }
 }

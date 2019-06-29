@@ -1,7 +1,7 @@
 - name: Home
   link: /
-- name: About
-  link: /about
+#- name: About
+#  link: /about
 - name: Curriculum Vitae
   link: /cv
 - name: Research
