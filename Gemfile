@@ -24,7 +24,7 @@ group :jekyll_plugins do
    gem "jekyll-sitemap"
    gem "jekyll-seo-tag"
    gem "jekyll-assets", "2.4.0"
-   gem 'bootstrap-sass', '~> 3.3.6'
+   gem 'bootstrap-sass', '~> 3.4.1'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
